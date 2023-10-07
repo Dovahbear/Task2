@@ -16,8 +16,9 @@ for index, row in df.head(10).iterrows():
     adress = row[1]
     ssn = row[2]
     cc = row[3]
-#Iterates over the first 10 entities in the dataframe from Task 1, and assigns every value to a variable
     textArray.append(f'Hi, my name is {name}. I wonder if you deliver to {adress}.')
+#Iterates over the first 10 entities in the dataframe from Task 1, and assigns every value to a variable
+
 #Inserts the name and adress from the row into the array in a sentence, then starts all over again on the next entity.
 #Do note that both ssn and cc are not included here, as one would expect, when the original intention was to use laundromat to remove them.
 
